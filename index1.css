@@ -2,6 +2,36 @@
     background: #999900;
 }
 
+.py-2, .sub-nav {
+    list-style: none;
+}
+
+.py-2:before, py-2:after {
+    content: '';
+    display: table;
+}
+
+.py-2:after {
+    clear: both;
+}
+
+.sub-nav {
+    transition: all .3s ease-in-out;
+}
+
+.py-2 li:hover > ul {
+    visibility: visible;
+}
+
+.py-2 li:hover > a {
+    color: yellow;
+}
+
+.sub-nav {
+
+    visibility: hidden;
+}
+
 .py-3 {
     background: black;
 }
@@ -21,3 +51,13 @@ img.responsive {
     width: 100%;
     height: auto;
 }
+
+h5 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+@media (min-width: @screen-sm-min) {
+    .py-2
+}
+
