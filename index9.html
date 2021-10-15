@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prihlas sa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index1.css" type="text/css">
+</head>
+<body>
+    <nav class="py-2">
+        <div class="container d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item"><a href="index1.html" class="px-2">Domov</a></li>
+                <li class="nav-item"><a href="index2.html" class="px-2">Oblečenie</a></li>
+                <li class="nav-item"><a href="index7.html" class="px-2">Q&A</a></li>
+                <li class="nav-item"><a href="index8.html" class="px-2">O nás</a></li>
+
+            </ul>
+            <ul class="nav">
+                <li class="nav-item"><a href="index9.html" class="px-2">Prihlás sa</a></li>
+                <li class="nav-item"><a href="#" class="px-2">Zaregistruj sa</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+        <div class="container d-flex flex-wrap center">
+            <a href="index1.html"><img src="https://fontmeme.com/permalink/211013/ae661bb1485a4a85200935c040313177.png" alt="retro-fonts" border="0" class="responsive"></a>
+        </div>
+    </header>
+
+    <h2>Prihlasovací formulár</h2>
+
+    <form action="/action_page.php" method="post">
+        <div class="container">
+            <label for="uname"><b>Login</b></label>
+            <input type="text" placeholder="Zadaj svoj login" name="uname" required>
+
+            <label for="psw"><b>Heslo</b></label>
+            <input type="password" placeholder="Zadaj svoje heslo" name="psw" required>
+
+            <button type="submit">Prihlásiť</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+</body>
+</html>
