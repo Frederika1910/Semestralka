@@ -35,6 +35,11 @@ h1 {
     font-weight: bold;
 }
 
+h2 {
+    font-size: big;
+    font-weight: bold;
+}
+
 .sidebar {
     height: 100%;
     background-color: #999900;
