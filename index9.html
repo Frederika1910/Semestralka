@@ -25,7 +25,7 @@
             </ul>
             <ul class="nav">
                 <li class="nav-item"><a href="index9.html" class="px-2">Prihlás sa</a></li>
-                <li class="nav-item"><a href="#" class="px-2">Zaregistruj sa</a></li>
+                <li class="nav-item"><a href="index10.html" class="px-2">Zaregistruj sa</a></li>
             </ul>
         </div>
     </nav>
@@ -35,27 +35,28 @@
         </div>
     </header>
 
-    <h2>Prihlasovací formulár</h2>
-
-    <form action="/action_page.php" method="post">
-        <div class="container">
-            <label for="uname"><b>Login</b></label>
-            <input id="uname" type="text" placeholder="Zadaj svoj login" name="uname" required>
-
-            <label for="psw"><b>Heslo</b></label>
-            <input id="psw" type="password" placeholder="Zadaj svoje heslo" name="psw" required>
-
-            <button type="submit">Prihlásiť</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Pamätaj si ma
-            </label>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-3">
+                <form class="form-container">
+                    <h2 class="text-center bold">Prihlásenie</h2>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail...">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Heslo</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Heslo...">
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Zapamätať</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Prihlásiť</button>
+                </form>
+            </div>
         </div>
-
-        <div class="container" style="background-color:#f1f1f1">
-            <button type="button" class="cancelbtn">Zrušiť</button>
-            <span class="psw">Zabudli ste <a href="#">heslo?</a></span>
-        </div>
-    </form>
+    </div>
 
     <footer class="footer mt-4">
         <div class="container text-center">
