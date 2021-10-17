@@ -157,6 +157,54 @@ hr.solid {
     font-weight: lighter;
 }
 
+.footer #services {
+  text-align: center;
+  transform: translatez(0);
+}
+.footer #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  text-transform: uppercase;
+  text-align: center;
+}
+.footer #services li {
+  width: auto;
+  height: auto;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+  list-style: none;
+}
+.footer #services li div {
+  width: auto;
+  height: auto;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+.footer #services li a {
+  color: #77cc6d;
+}
+.footer #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+.footer #services li span {
+  width: auto;
+  height: auto;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
 
 
 
