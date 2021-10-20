@@ -1,33 +1,3 @@
-*, ::after, ::before {
-    box-sizing: content-box;
-}
-
-@media screen and (max-width: 650px) {
-    body {
-        font-size: 3vw;
-    }
-}
-
-@media screen and (min-width: 651px) and (max-width: 1000px) {
-    body {
-        font-size: 2vw;
-    }
-
-    h1 {
-        font-size: 10vw;
-    }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1500px) {
-    body {
-        font-size: 1.5vw;
-    }
-
-    h1 {
-        font-size: 12vw;
-    }
-}
-
 .py-2, footer {
     background: #999900;
 }
@@ -187,6 +157,7 @@ hr.solid {
 .footer span {
     color: white;
 }
+
 .footer #services li span {
   width: auto;
   height: auto;
